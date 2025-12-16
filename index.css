@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'CursedTimer'; /* Choose a name to use later */
+  font-family: 'CursedTimer';
   src: url('./fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
-  font-weight: normal; /* Define weight and style if necessary */
+  font-weight: normal;
   font-style: normal;
-  font-display: swap; /* Helps prevent render-blocking during load */
+  font-display: swap; 
 }
 
 

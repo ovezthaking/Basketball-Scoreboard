@@ -5,23 +5,23 @@
     </head>
     <body>
         <div class="container">
-            <div class="halfboard">
+            <div class="halfboard" id="homes">
                 <h3>HOME</h3>
                 <div class="blackbox">
-                    <p class="numbers">21</p>
+                    <p class="numbers" id="homePoints"></p>
                 </div>
-                <button>+1</button>
-                <button>+2</button>
-                <button>+3</button>
+                <button onclick="add1()">+1</button>
+                <button onclick="add2()">+2</button>
+                <button onclick="add3()">+3</button>
             </div>
-            <div class="halfboard">
+            <div class="halfboard" id="guests">
                 <h3>GUEST</h3>
                 <div class="blackbox">
-                    <p class="numbers">21</p>
+                    <p class="numbers" id="guestPoints"></p>
                 </div>
-                <button>+1</button>
-                <button>+2</button>
-                <button>+3</button>
+                <button onclick="add1()">+1</button>
+                <button onclick="add2()">+2</button>
+                <button onclick="add3()">+3</button>
             </div>
         </div>
         <script src="index.js"></script>
